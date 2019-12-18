@@ -1,33 +1,130 @@
 dashboard
     - Navbar
         - 3 Buttons
-            - Three dot sideMenu icon
+            - Three dot sideMenu icon 
             - new patient
             - online/offline status indicator
     - Form
         - 1 text input (Search)
         - 1 Button (Search)
     - card
-        - 3 text 
+        - 3 text
             - name
-            - gender  
+            - gender
             - timestamp,phone_number,age
+
+
+
 sideMenu
     - text (Title)
     - 4 links
         - logout
         - Refresh
         - language
-        - account settings
+        - Account settings
+            - Buttons
+                - 1 button (Goto dashboard)
+            - Form
+                - text (instruction message)
+                - 2 radio button
+                    - Positive Results
+                    - Positive/Negative Results
+                - text (update account)
+                - 6 labels
+                    - username
+                    - password
+                    - repeat password
+                    - phone number
+                    - email
+                    - service provider
+                - 2 text input field
+                    - username
+                    - phone number
+                - 2 password input field
+                    - password
+                    - repeat password
+                - 1 email input field
+                    - email
+                - 1 dropdown list (MTN, ORANGE, NEXTEL)
+                - 1 button (update)
+                
+New patient
+    - 1 button ( goto dashboard)
+    - form
+      - 1 text input (Patients Name)
+      - 1 number input field ( age)
+      - 2 radio button (sex)
+        - female 
+        - male
+      - 1 date input field 
+      - 3 text input field 
+        - Address
+        - Telephone
+        - Telephone 2
+      - 2 text label
+        - optional
+        - Has ART unique code
+      - 3 radio buttons 
+        - No 
+        - yes 
+        - Unknown
+      - 2 radio buttons label( status)
+        - Outpatient
+        - Ward-Bed 
+      - 5 checkboxes label( symptoms)
+        - current cough 
+        - Fever 
+        - Night sweats 
+        - Weight loss 
+        - None of the above 
+      - 7 checkboxes label (patient category)
+        - Hospitalized(HOS)
+        - Child(CHI)
+        - To initiate AART (ART)
+        - On ART, symptomatic (PLH)
+        - Out patient 
+        - ANC 
+        - other
+      - 1 text input field label(other)
+      - 4 checkboxes  label (speciment type)
+        - sputum
+        - CSF 
+        - lymph node aspirate 
+        - Gastric aspirate
+      - 1 text input field label(other)
+      - text heading(reason for test)
+      - 1 checkbox label (Presumptive TB(Pre-treatment)
+      - 5 radio buttons 
+        - New(never treated > 1 month)
+        - Relapse (completed previous TB Rx)
+        - After loss to follow up (x2 months of Tx interruption)
+        - Failure ( 2 smears AFB positive at > 5 months on Rx)
+        - contact of TB patient 
+      - 1 text input field label (other)
+      - 2 select input fields 
+        - FCS Test Region 
+        - Afkanerd Developers
+      - text heading (Requester)
+        - jumbotron
+          - text 
+            - username 
+            - phone_number
+          - button(Not my account)
+    - text 
+       - good job
+       - review everything and hit register 
+    - button(register)
+
 Navigate Patient
     - text (title)
     - icon (close button)
-    - 5 links 
+    - 5 links
         - information
         - collect specimens
         - Labs
         - Folow up
         - outcome Recorded
+
 Information page
     - 2 Buttons
         - Goto dashboard
@@ -48,39 +145,147 @@ Information page
         - Site
         - Patient's Category
         - Reason for test
+
 Collect specimens page
-    -
+    - 2 buttons 
+      - go to dashboard 
+      - navigate patients
+    - text (Specimen Collection)
+    - card 
+      - 3 text
+        - date 
+        - timestamp
+        - Specimen type 
+    - form
+      - text (patient name)
+      - 7 radio button
+        - Spot 
+        - Morning
+        - N/A
+        - Mucopurulent
+        - Bloody
+        - Salivary
+        - N/A
+      - 2 buttons
+        - save 
+        - navigate patient
+
 Labs page
-    -
-Folow up page
-    -
+    - 2 buttons
+      - go to dashboard 
+      - navigate patients
+    - text heading (lab)
+    - form 
+      - 2 text input fields 
+        - Patients name and Id
+        - Received by 
+      - 1 date input field
+      - card 
+        - card title(smear microscopy result)
+        - text label (Result 1)
+        - 8 radio buttons 
+          - No AFB  seen 
+          - scanty
+          - 1+ 
+          - 2+ 
+          - TB LAMP-Positive
+          - TB LAMP-Negative 
+          - 3+
+          - Not done 
+        - text label( Result 2)
+        - 8 radio buttons
+          - No AFB  seen
+          - scanty
+          - 1+
+          - 2+
+          - TB LAMP-Positive
+          - TB LAMP-Negative
+          - 3+
+          - Not done
+        - 1 number input field( lab serial number)
+        - 1 date input field
+      - card 
+        - card title ( Xpert MTB/ RIF assay)
+        - 1 checkbox (Automatic from xpert machine)
+        - text label ( MTB result)
+        - 5 radio button
+          - Detected
+          - Trace 
+          - Not Detected
+          - Error/ invalid
+          - Not done 
+        - 1 number input field( Unique code)
+        - 1 date input field
+
+    - text label(good job)
+    - text label( Review everything and click save)
+    - 1 button (save)
+
+Follow up page
+    - 2 Buttons
+      - go to dashboard 
+      - Navigate patient
+    - text ( Follow up)
+    - form 
+      - 1 text input (Patients name and ID)
+      - Results display container 
+        - 8 text
+        - lab Results
+        - SMR Results
+        - Result 1
+        - Result 2
+        - Xpert Results
+        - MTB 
+        - Grade
+        - RIF 
+      - 2 checkbox 
+        - X-Ray 
+        - Amoxicilin Prescribed
+      - 3 text input
+        - other antibiotic
+        - Follow up Sheduled Date
+        - Comments
+      - 2 text 
+        - good job 
+        - review everything and submit 
+      - 1 button (Record)
+
 Outcome Recorded page
-    -
-New patient
-    - 
-Account settings
-    - Buttons
-        - 1 button (Goto dashboard)
-    - Form
-        - text (instruction message)
-        - 2 radio button
-            - Positive Results 
-            - Positive/Negative Results
-        - text (update account)
-        - 6 labels 
-            - username
-            - password
-            - repeat password
-            - phone number
-            - email
-            - service provider
-        - 2 text input field
-            - username
-            - phone number
-        - 2 password input field
-            - password
-            - repeat password
-        - 1 email input field
-            - email
-        - 1 dropdown list (MTN, ORANGE, NEXTEL)
-        - 1 button (update)
+    - 2 buttons 
+     - goto dashboard 
+     - Navigate patient
+    - text heading ( Outcome recorded)
+    - form 
+     - 1 muted text input field (Patients name and ID)
+     - text display area 
+       - 8 text
+        - lab Results
+        - SMR result
+        - Result 1
+        - Result 2
+        - Xpert Results
+        - MTB
+        - Grade
+        - RIF 
+     - 5 radio buttons
+       - Started TB treatment 
+       - Reffered for treatment
+       - Patient Improved, Unlikely TB
+       - Lost Patient to follow up 
+       - other 
+
+     - 2 text input fields
+       - other 
+       - comments 
+     - 1 checkbox (close patient file)
+
+     - card 
+       - text heading(requester)
+       - 2 text
+         - username 
+         - phone_number
+       - 1 button (Not my account)
+     - 2 text
+       - good job 
+       - review everything and save
+
