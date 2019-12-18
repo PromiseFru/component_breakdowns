@@ -1,72 +1,86 @@
 dashboard
     - Navbar
-        - Buttons
-        - Three dot sideMenu icon
-        - 1 Button (new patient)
-        - 1 online/offline status indicator
-    - 1 text input (Search)
-    - 1 Button (Search)
+        - 3 Buttons
+            - Three dot sideMenu icon
+            - new patient
+            - online/offline status indicator
+    - Form
+        - 1 text input (Search)
+        - 1 Button (Search)
     - card
-        - text (name)
-        - text (gender)  
-        - text (timestamp|phone_number|age)
+        - 3 text 
+            - name
+            - gender  
+            - timestamp,phone_number,age
 sideMenu
     - text (Title)
-    - link (logout)
-    - link (Refresh)
-    - link (language)
-    - link (account settings)
+    - 4 links
+        - logout
+        - Refresh
+        - language
+        - account settings
 Navigate Patient
     - text (title)
     - icon (close button)
-    - link (information)
-    - link (collect specimens)
-    - link (Labs)
-    - link (Folow up)
-    - link (outcome Recorded)
+    - 5 links 
+        - information
+        - collect specimens
+        - Labs
+        - Folow up
+        - outcome Recorded
 Information page
-    - label (Id)
-    - muted text input (id)
-
-    - label (name)
-    - muted text input (name)
-
-    - label (age)
-    - muted text input (age)
-
-    - label (Gender)
-    - muted text input (Gender)
-
-    - label (Date of test request)
-    - muted text input (Date of test request)
-    
-    - label (Address)
-    - muted text input (Address)
-
-    - label (Telephone)
-    - muted text input (Telephone)
-
-    - label (Telephone2)
-    - muted text input (Telephone2)
-
-    - label (ART)
-    - muted text input (ART)
-
-    - label (Status)
-    - muted text input (Status)
-
-    - label (Symptoms)
-    - muted text input (Symptoms)
-
-    - label (Region)
-    - muted text input (Region)
-
-    - label (Site)
-    - muted text input (Site)
-
-    - label (Patient's Category)
-    - muted text input (Patient's Category)
-    
-    - label (Reason for test)
-    - muted text input (Reason for test)
-    
+    - 2 Buttons
+        - Goto dashboard
+        - Navigate patient
+    - 15 label/jumbotron pairs
+        - Id
+        - name
+        - age
+        - Gender
+        - Date of test request
+        - Address
+        - Telephone
+        - Telephone2
+        - ART
+        - Status
+        - Symptoms
+        - Region
+        - Site
+        - Patient's Category
+        - Reason for test
+Collect specimens page
+    -
+Labs page
+    -
+Folow up page
+    -
+Outcome Recorded page
+    -
+New patient
+    - 
+Account settings
+    - Buttons
+        - 1 button (Goto dashboard)
+    - Form
+        - text (instruction message)
+        - 2 radio button
+            - Positive Results 
+            - Positive/Negative Results
+        - text (update account)
+        - 6 labels 
+            - username
+            - password
+            - repeat password
+            - phone number
+            - email
+            - service provider
+        - 2 text input field
+            - username
+            - phone number
+        - 2 password input field
+            - password
+            - repeat password
+        - 1 email input field
+            - email
+        - 1 dropdown list (MTN, ORANGE, NEXTEL)
+        - 1 button (update)
