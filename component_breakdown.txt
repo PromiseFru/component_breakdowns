@@ -1,130 +1,72 @@
-Dashboard page
-  - Nav
-   - 1 dropdown menu icon
-     - text heading
-     - link
-     - link
-     - link
-     - link
-     - settings link
-       - button
-       - text heading
-       - hr
-       - text heading
-       - radio button
-       - radio button
-       - form
-          - text heading
-          - text label
-          - text input field
-          - text label
-          - text input field
-          - text label
-          - password input field
-          - text label
-          - email input field
-          - text label
-          - select input field
-          - button
+dashboard
+    - Navbar
+        - Buttons
+        - Three dot sideMenu icon
+        - 1 Button (new patient)
+        - 1 online/offline status indicator
+    - 1 text input (Search)
+    - 1 Button (Search)
+    - card
+        - text (name)
+        - text (gender)  
+        - text (timestamp|phone_number|age)
+sideMenu
+    - text (Title)
+    - link (logout)
+    - link (Refresh)
+    - link (language)
+    - link (account settings)
+Navigate Patient
+    - text (title)
+    - icon (close button)
+    - link (information)
+    - link (collect specimens)
+    - link (Labs)
+    - link (Folow up)
+    - link (outcome Recorded)
+Information page
+    - label (Id)
+    - muted text input (id)
 
-   -1 button
-   -online offline status indicator
-  - form
-    - text label
-    - search input field , search button
+    - label (name)
+    - muted text input (name)
 
-  - records display container
-    - card record
-      - modal
-        - icon ,text label
-          - button , button
-          - form 
-            - text label
-            - text input field
-            - text label 
-            - text input field
-            - text label
-            - number input field
-            - text label 
-            - text input field
-            - text label
-            - date input field 
-            - text label
-            - number input field
-            - text label 
-            - number input field
-            - text label
-            - text input field
-            - text label
-            - text input field
-            - text label
-            - text input field
-            - text label
-            - text input field
-            - text label
-            - text input field
-            - text label
-            - text input field
-            - text label
-            - text input field
+    - label (age)
+    - muted text input (age)
 
-        - icon ,text label
-          - button , button
-          - text heading
-          - box container 
-            - text , text ,text
-          - Unordered list 
-            - text heading
-            - form 
-              - text label
-              - date input field
-              - radio button,label , radio button,label , radio button,label
-              - radio button,label , radio button,label
-              - radio button,label , radio button,label
-              - button button
+    - label (Gender)
+    - muted text input (Gender)
 
-        - icon ,text label
-          - button button
-          - text heading
-          - form 
-            - text label 
-            - text input field
-            - text label 
-            - text input field
-            - text label 
-            - text input field
-            - card 
-            - card title 
-            - form
-            - text heading
-            - radio button,label ,radio button,label ,radio button,label
-            - radio button,label ,radio button,label
-            - radio button,label ,radio button,label
-            - radio button,label
-            - text heading
-            - radio button,label ,radio button,label ,radio button,label
-            - radio button,label ,radio button,label
-            - radio button,label ,radio button,label
-            - hr
-            - text label
-            - number input field 
-            - text label 
-            - date input field 
-            - card
-            - card title 
-            - form 
-              - checkbox label 
-              - text heading
-              - radio button,label ,radio button,label, radio button,label
-              - radio button,label ,radio button,label
-              - hr 
-              - text label
-              - number input field
-              - text label 
-              - date input field 
-            - text heading 
-            - text heading
-            - button
-        - icon ,text label
-        - icon ,text label
+    - label (Date of test request)
+    - muted text input (Date of test request)
+    
+    - label (Address)
+    - muted text input (Address)
 
+    - label (Telephone)
+    - muted text input (Telephone)
+
+    - label (Telephone2)
+    - muted text input (Telephone2)
+
+    - label (ART)
+    - muted text input (ART)
+
+    - label (Status)
+    - muted text input (Status)
+
+    - label (Symptoms)
+    - muted text input (Symptoms)
+
+    - label (Region)
+    - muted text input (Region)
+
+    - label (Site)
+    - muted text input (Site)
+
+    - label (Patient's Category)
+    - muted text input (Patient's Category)
+    
+    - label (Reason for test)
+    - muted text input (Reason for test)
+    
