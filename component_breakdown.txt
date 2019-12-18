@@ -1,0 +1,130 @@
+Dashboard page
+  - Nav
+   - 1 dropdown menu icon
+     - text heading
+     - link
+     - link
+     - link
+     - link
+     - settings link
+       - button
+       - text heading
+       - hr
+       - text heading
+       - radio button
+       - radio button
+       - form
+          - text heading
+          - text label
+          - text input field
+          - text label
+          - text input field
+          - text label
+          - password input field
+          - text label
+          - email input field
+          - text label
+          - select input field
+          - button
+
+   -1 button
+   -online offline status indicator
+  - form
+    - text label
+    - search input field , search button
+
+  - records display container
+    - card record
+      - modal
+        - icon ,text label
+          - button , button
+          - form 
+            - text label
+            - text input field
+            - text label 
+            - text input field
+            - text label
+            - number input field
+            - text label 
+            - text input field
+            - text label
+            - date input field 
+            - text label
+            - number input field
+            - text label 
+            - number input field
+            - text label
+            - text input field
+            - text label
+            - text input field
+            - text label
+            - text input field
+            - text label
+            - text input field
+            - text label
+            - text input field
+            - text label
+            - text input field
+            - text label
+            - text input field
+
+        - icon ,text label
+          - button , button
+          - text heading
+          - box container 
+            - text , text ,text
+          - Unordered list 
+            - text heading
+            - form 
+              - text label
+              - date input field
+              - radio button,label , radio button,label , radio button,label
+              - radio button,label , radio button,label
+              - radio button,label , radio button,label
+              - button button
+
+        - icon ,text label
+          - button button
+          - text heading
+          - form 
+            - text label 
+            - text input field
+            - text label 
+            - text input field
+            - text label 
+            - text input field
+            - card 
+            - card title 
+            - form
+            - text heading
+            - radio button,label ,radio button,label ,radio button,label
+            - radio button,label ,radio button,label
+            - radio button,label ,radio button,label
+            - radio button,label
+            - text heading
+            - radio button,label ,radio button,label ,radio button,label
+            - radio button,label ,radio button,label
+            - radio button,label ,radio button,label
+            - hr
+            - text label
+            - number input field 
+            - text label 
+            - date input field 
+            - card
+            - card title 
+            - form 
+              - checkbox label 
+              - text heading
+              - radio button,label ,radio button,label, radio button,label
+              - radio button,label ,radio button,label
+              - hr 
+              - text label
+              - number input field
+              - text label 
+              - date input field 
+            - text heading 
+            - text heading
+            - button
+        - icon ,text label
+        - icon ,text label
+
